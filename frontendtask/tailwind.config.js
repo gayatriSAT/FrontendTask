@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'dark-gray': '#DCDCDC',
+        'feature-gray' : '#5C5C5C',
+        'dark-pink' : '#AD2F89',
       },
       fontFamily : {
         Montserrat : ['Montserrat','sans-serif'],

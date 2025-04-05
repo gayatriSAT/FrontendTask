@@ -4,7 +4,7 @@ import { Moon } from "lucide-react";
 const Navbar = () => {
   return (
     
-    <header className="fixed top-0 left-0 w-full z-50 bg-transparent px-40 py-4 flex justify-between items-center">
+    <header className="top-0 left-0 w-full z-50 bg-transparent px-40 py-4 flex justify-between items-center">
       <div className="text-2xl font-bold">Logo</div>
       <nav className="flex gap-4 items-center">
         <div className="bg-gray-400 rounded-full px-4 py-2 flex gap-4 text-white font-medium transition-all duration-300">

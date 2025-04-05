@@ -1,6 +1,5 @@
 import React from "react";
 import Icon from "../common/icons";
-import Section from "./sectionnumber";
 
 const Footer = () => {
   return (
