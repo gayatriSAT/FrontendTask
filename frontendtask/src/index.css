@@ -6,3 +6,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+/* index.css */
+
+/* Container that positions glows correctly */
+.glow-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+/* Pink top-left glow */
+.glow-pink {
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background-color: #fbcfe8; 
+  border-radius: 9999px;
+  filter: blur(100px);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+/* Purple bottom-right glow */
+.glow-purple {
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 250px;
+  height: 250px;
+  background-color: #ddd6fe; 
+  border-radius: 9999px;
+  filter: blur(100px);
+  opacity: 0.4;
+  z-index: 0;
+}

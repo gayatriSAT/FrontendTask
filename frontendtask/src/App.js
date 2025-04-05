@@ -10,7 +10,13 @@ import StartNowCartoon from "./asset/images/StartNowCartoon.png";
 
 function App() {
   return (
+
     <>
+    <div className="glow-wrapper">
+
+    <div className="glow-pink"></div>
+    <div className="glow-purple"></div>
+    <section className=" relative z-10">
       <Navbar />
       <section id="about">
         <About />
@@ -28,7 +34,7 @@ function App() {
         <FAQ />
       </section>
 
-      <section className="px-44  flex items-center justify-around rounded-xl max-w-full">
+      <section className="px-44 mb-16  flex items-center justify-around rounded-xl max-w-full">
         <div className="bg-black rounded-xl flex items-center justify-between px-28 pt-10 w-full">
 
           <img
@@ -49,8 +55,8 @@ function App() {
 
         </div>
       </section>
-
-
+      </section>
+          </div>
       <Footer />
     </>
   );

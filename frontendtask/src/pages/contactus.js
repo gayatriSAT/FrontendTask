@@ -26,7 +26,7 @@ const ContactSection = () => {
   return (
     <section className="py-12 px-40 ">
         <EchoesOfExcellence />
-      <div className=" mx-auto space-y-10">
+      <div className=" mx-auto space-y-10 pt-10">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800">

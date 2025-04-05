@@ -1,7 +1,6 @@
 import React from "react";
 import HeroImage from "../asset/images/hero-image.png";
 import phoneImg from "../asset/images/image-phone.png";
-import Section from "../common/sectionnumber";
 
 const Hero = () => {
   return (
@@ -13,10 +12,8 @@ const Hero = () => {
 
       }}
     >
-          <Section sectionNumber="01" />
 
 
-      {/* Phone Image Center */}
       <div className="max-w-4xl w-full px-4 z-10">
         <img
           src={phoneImg}
