@@ -5,10 +5,13 @@ module.exports = {
   ],
     theme: {
     extend: {
+      colors: {
+        'dark-gray': '#DCDCDC',
+      },
       fontFamily : {
         Montserrat : ['Montserrat','sans-serif'],
         NunitoSans : ['NunitoSans','sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
