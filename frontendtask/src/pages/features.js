@@ -11,16 +11,27 @@ const Features = () => {
           <h2 className="text-6xl font-bold mb-4">Core Capabilities of <span className="text-dark-pink">Logo</span></h2>
           <FeatureSection />
         </section> 
-        <section className="px-40 max-h-80">
-            <div className="bg-black rounded-xl">
-                <span className="flex flex-row">
-                <h2 className="text-5xl font-bold pt-16 px-14 text-white">Experience The<br/> Future of <span className="text-dark-pink">Interaction</span>
-                    <Button children='Schedule a Demo' className="mt-8 px-6 py-4 border border-dark-gray text-gray-100 text-sm font-normal font-NunitoSans rounded-full hover:bg-gray-100 transition duration-200"/>
-                </h2>
-                <img src={DemoCartoon} alt="demo-caroon" className="pt-11 h-72 pr-14 bg-cover" />
-                </span>
-            </div>
-        </section>
+        <section className="px-44  flex items-center justify-around rounded-xl max-w-full">
+  <div className="bg-black rounded-xl flex items-center justify-between px-28 pt-10 w-full">
+    <div className="flex flex-col text-white space-y-4">
+    
+
+      <h2 className="text-5xl font-bold leading-snug">
+        Experience the<br />
+        Future of <span className="text-dark-pink">Interaction</span>
+      </h2>
+        <Button children="Schedule a Demo" className="border-white text-white text-sm hover:text-black"/>
+    </div>
+
+    <img
+      src={DemoCartoon}
+      alt="demo-cartoon"
+      className="h-64 pr-2"
+    />
+  </div>
+</section>
+
+
         <section className="py-16 bg-gray-50 px-40">
           <h2 className="text-6xl font-bold mb-4">Transforming Industry with <span className="text-dark-pink">Advance Technology</span></h2>
           <IndustySection />
